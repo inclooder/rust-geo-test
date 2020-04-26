@@ -1,0 +1,14 @@
+[package]
+name = "geo-test-rust"
+version = "0.1.0"
+authors = ["Inclooder <inclooder@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+geo-booleanop = "0.2.1"
+
+geo-types = "0.5.0"
+geo = "0.13.0"
+geojson = { version = "0.18.0", features=["geo-types"] }
